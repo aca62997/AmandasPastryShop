@@ -8,25 +8,39 @@
 
     <!-- Stylesheets go here! -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cookie&display=swap">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Amanda's Pastry Shop</title>
 </head>
 
 <body>
-    <header>
-        <h1>Amanda's Pastry Shop</h1>
-        <h2>Treats that make you smile!</h2>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col">
+                    <h1>Amanda's Pastry Shop</h1>
+                    <h2>Treats that make you smile!</h2>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <div>
-            <!-- Logo Image Here -->
-            <button>
-
-            </button>
-            <!--Cart-->
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#pastryShopNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pastryShopNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <div>
         <!--Pastry Carousel Here-->
@@ -41,23 +55,28 @@
     </div>
 
     <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-        </div>
-        <div>
-            Tel: 555-555-5555<br />
-            Email: amandaspastryshop@pastries.com
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a>
+                    <a href="http://facebook.com/">Facebook</a>
+                    <a href="http://twitter.com/">Twitter</a>
+                </div>
+                <div class="col-sm-4">
+                    Tel: 555-555-5555<br />
+                    Email: amanda@amandaspastryshop.com
+                </div>
+            </div>
         </div>
     </footer>
 

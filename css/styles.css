@@ -1,0 +1,30 @@
+body {
+    font-family: cursive, sans-serif;
+}
+
+h1, h2, h3, h5 {
+    font-family: "Cookie", cursive;
+}
+
+h2, h5 {
+    color: #ce4165;
+}
+
+h1 {
+    color: #a03a54;
+}
+
+footer {
+    background-image: linear-gradient(pink, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-image: linear-gradient(white, pink);
+    margin: 0;
+}
+
+.navbar {
+    background-color: #ce4165;
+}
