@@ -1,8 +1,6 @@
 body {
     font-family: "Lateef", cursive, sans-serif;
     background-color: pink;
-    font-size: 25px;
-    border-left: 15px;
 }
 
 h1, h2, h3, h5 {
@@ -38,5 +36,13 @@ footer {
 
 .btn-lg {
     background-color: #ce4165;
+    color: white;
+}
+
+.card-header {
+    background-color: #ce4165;
+}
+
+.navbar-brand {
     color: white;
 }
