@@ -53,129 +53,94 @@
         <!--Pastry Carousel Here-->
     </div>
 
-    <div class="row row-content mx-auto">
-        <div class="col-sm-9">
-            <h2>Pastries</h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="bg-danger text-light">
-                            <th>Available at any time</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody class="table-danger">
-                        <tr>
-                            <th>Chocolate Chip Cookie</th>
-                            <td>2.49</td>
-                        </tr>
-                        <tr>
-                            <th>Sugar Cookie</th>
-                            <td>2.49</td>
-                        </tr>
-                        <tr>
-                            <th>Brownie</th>
-                            <td>2.99</td>
-                        </tr>
-                        <tr>
-                            <th>Macarons</th>
-                            <td>2.99</td>
-                        </tr>
-                        <tr>
-                            <th>Apple Pie</th>
-                            <td>5.99</td>
-                        </tr>
-                        <tr>
-                            <th>Chocolate Cake</th>
-                            <td>8.99</td>
-                        </tr>
-                        <tr>
-                            <th>Cheesecake</th>
-                            <td>8.99</td>
-                        </tr>
-                    </tbody>
-                </table>
+    
+    <div class="row row-content">
+        <div class="col">
+            <h1>Menu</h1>
+            <div id="accordion">
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a data-toggle="collapse" data-target="#pastries">
+                                Pastries <small>Served all day!</small>
+                            </a>
+                        </h4>
+                        <div class="collapse show" id="pastries" data-parent="#accordion">
+                            <div class="card-body">
+                                <dt class="col-6">Chocolate Chip Cookie</dt>
+                                <dd class="col-6">2.49</dd>
+                                <dt class="col-6">Sugar Cookie</dt>
+                                <dd class="col-6">2.49</dd>
+                                <dt class="col-6">Brownie</dt>
+                                <dd class="col-6">2.99</dd>
+                                <dt class="col-6">Macarons</dt>
+                                <dd class="col-6">2.99</dd>
+                                <dt class="col-6">Apple Pie</dt>
+                                <dd class="col-6">5.99</dd>
+                                <dt class="col-6">Chocolate Cake</dt>
+                                <dd class="col-6">8.99</dd>
+                                <dt class="col-6">Cheesecake</dt>
+                                <dd class="col-6">8.99</dd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#breakfast">
+                                Breakfast <small>Served from 8AM - 11AM</small>
+                            </a>
+                        </h4>
+                        <div class="collapse" id="breakfast" data-parent="#accordion">
+                            <div class="card-body">
+                                <dt class="col-6">Pancakes</dt>
+                                <dd class="col-6">5.99</dd>
+                                <dt class="col-6">Waffles</dt>
+                                <dd class="col-6">5.99</dd>
+                                <dt class="col-6">French Toast</dt>
+                                <dd class="col-6">6.99</dd>
+                                <dt class="col-6">Bacon and Eggs</dt>
+                                <dd class="col-6">4.99</dd>
+                                <dt class="col-6">Coffee</dt>
+                                <dd class="col-6">1.49</dd>
+                                <dt class="col-6">Tea</dt>
+                                <dd class="col-6">1.49</dd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#lunch">
+                                Lunch <small>Served from 11AM - 2PM</small>
+                            </a>
+                        </h4>
+                        <div class="collapse" id="lunch" data-parent="#accordion">
+                            <div class="card-body">
+                                <dt class="col-6">Ham and Cheese Sandwich</dt>
+                                <dd class="col-6">5.99</dd>
+                                <dt class="col-6">Turkey Club</dt>
+                                <dd class="col-6">6.99</dd>
+                                <dt class="col-6">Grilled Cheese</dt>
+                                <dd class="col-6">4.99</dd>
+                                <dt class="col-6">Hummus Wrap</dt>
+                                <dd class="col-6">4.99</dd>
+                                <dt class="col-6">Soup of the Day</dt>
+                                <dd class="col-6">2.99</dd>
+                                <dt class="col-6">Coffee</dt>
+                                <dd class="col-6">1.49</dd>
+                                <dt class="col-6">Assorted Soft Drinks</dt>
+                                <dd class="col-6">1.49</dd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="row row-content mx-auto">
-        <div class="col-sm-9">
-            <h2>Breakfast</h2>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                        <tr class="bg-danger text-light">
-                            <th>Served from 8AM - 11AM</th>
-                            <th>All breakfasts served with hash browns</th>
-                        </tr>
-                    </thead>
-                    <tbody class="table-danger">
-                        <tr>
-                            <th>Pancakes</th>
-                            <td>5.99</td>
-                        </tr>
-                        <tr>
-                            <th>Waffles</th>
-                            <td>5.99</td>
-                        </tr>
-                        <tr>
-                            <th>French Toast</th>
-                            <td>6.99</td>
-                        </tr>
-                        <tr>
-                            <th>Bacon and Eggs</th>
-                            <td>4.99</td>
-                        </tr>
-                        <tr>
-                            <th>Coffee</th>
-                            <td>1.49</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-content mx-auto">
-            <div class="col-sm-9">
-            	<h2>Lunch</h2>
-            	<div class="table-responsive">
-               	    <table class="table table-striped">
-	                    <thead>
-	                        <tr class="bg-danger text-light">
-	                            <th>Served from 11AM-2PM</th>
-                                <th>All lunches served with french fries</th>
-	                        </tr>
-                    	</thead>
-	                    <tbody class="table-danger">
-                            <tr>
-                                <th>Ham and Cheese Sandwich</th>
-                                <td>5.99</td>
-                            </tr>
-                            <tr>
-                                <th>Turkey Panini</th>
-                                <td>6.99</td>
-
-                            </tr>
-                            <tr>
-                                <th>Grilled Cheese</th>
-                                <td>4.99</td>
-                            </tr>
-                            <tr>
-                                <th>Hummus Wrap</th>
-                                <td>4.99</td>
-                            </tr>
-                            <tr>
-                                <th>Soup of the Day</th>
-                                <td>2.99</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>                
-            </div>
-       </div> 
-
+    
     <div>
         <!--Birthday entry thing-->
     </div>
@@ -203,8 +168,8 @@
                     <a href="http://twitter.com/"><i class="fa fa-twitter fa-3x"></i></a>
                 </div>
                 <div class="col-sm-4">
-                    <i class="fa fa-phone fa-lg"></i>Tel: 555-555-5555<br />
-                    <i class="fa fa-envelope fa-lg"></i>Email: amanda@amandaspastryshop.com
+                    <i class="fa fa-phone fa-lg"></i> 555-555-5555<br />
+                    <i class="fa fa-envelope fa-lg"></i> amanda@amandaspastryshop.com
                 </div>
             </div>
         </div>

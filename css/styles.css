@@ -1,14 +1,19 @@
 body {
     font-family: "Lateef", cursive, sans-serif;
     background-color: pink;
+    font-size: 25px;
 }
 
-h1, h2, h3, h5 {
+h1, h2, h3, h4, h5 {
     font-family: "Cookie", cursive;
 }
 
-h2, h5 {
+h2, h3, h5 {
     color: #ce4165;
+}
+
+h4 {
+    color: white;
 }
 
 h1 {
@@ -43,6 +48,15 @@ footer {
     background-color: #ce4165;
 }
 
+.card-body {
+    background-color: white;
+}
+
 .navbar-brand {
     color: white;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
 }
