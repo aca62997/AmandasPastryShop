@@ -4,7 +4,7 @@ body {
     font-size: 25px;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, th {
     font-family: "Cookie", cursive;
 }
 
@@ -21,9 +21,9 @@ h1 {
     color: #a03a54;
 }
 
-.site-footer {
+footer {
     background-image: linear-gradient(pink, white);
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .jumbotron {
@@ -65,3 +65,9 @@ a, a:hover {
 .blockquote-footer {
     background-image: white;
 }
+
+.row-container {
+    padding: 10px;
+}
+
+
